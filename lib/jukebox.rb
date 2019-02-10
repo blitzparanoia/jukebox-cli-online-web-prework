@@ -38,4 +38,5 @@ def play(songs)
   song_choice = gets.chomp
   if (1..9).to_a.include?(song_choice.to_i) 
     puts "Playing song"
+  end
 end
