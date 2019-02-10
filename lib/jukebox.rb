@@ -20,4 +20,5 @@ puts say_hello(users_name)
 =end
 
 def help
+  puts ""
 end
