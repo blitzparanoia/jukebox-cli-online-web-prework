@@ -35,6 +35,6 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
-  user_response = gets.chomp
-  if user_response 
+  song_choice = gets.chomp
+  if (0...1) 
 end
