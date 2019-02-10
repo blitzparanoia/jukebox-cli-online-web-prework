@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -41,4 +41,4 @@ def play(songs)
     puts "Playing #{songs}"
   end
 end
-binding.pry
+#binding.pry
