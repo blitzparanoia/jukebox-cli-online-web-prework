@@ -55,7 +55,7 @@ def run(songs)
   input = ""
   while input
   puts "Please enter a command:"
-  input = gets.chomp
+  input = gets.downcase.chomp
   case command
   when 
   
