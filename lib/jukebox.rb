@@ -27,6 +27,6 @@ def help
 - exit : exits this program"
 end
 
-def play(songs)
+def play(songs_array)
   
 end
