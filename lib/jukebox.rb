@@ -36,5 +36,5 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   song_choice = gets.chomp
-  if (1..9)to_a.include?(song_choice) 
+  if (1..9).to_a.include?(song_choice.to_i) 
 end
