@@ -28,7 +28,7 @@ def help
 end
 
 def list(songs)
-  songs.each_with_inde
+  songs.each_with_index do |song|
 end
 
 def play(songs)
