@@ -27,6 +27,6 @@ def help
 - exit : exits this program"
 end
 
-def play
+def play(songs)
   
 end
