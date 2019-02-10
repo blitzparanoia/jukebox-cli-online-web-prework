@@ -56,6 +56,6 @@ def run
   puts "Please enter a command:"
   gets.chomp
   case command
-  
+  when 
   
 end
