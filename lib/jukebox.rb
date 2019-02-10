@@ -39,7 +39,8 @@ def play(songs)
   song_choice = gets.chomp
   if (1..9).to_a.include?(song_choice.to_i) 
     puts "Playing #{songs[song_choice.to_i - 1]}"
-    elsif
+    elsif songs.include?(song_choice)
+    puts ""
   end
 end
 #binding.pry
