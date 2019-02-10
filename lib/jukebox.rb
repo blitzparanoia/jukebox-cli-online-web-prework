@@ -28,5 +28,5 @@ def help
 end
 
 def play(songs_array)
-  
+  puts #{songs}
 end
